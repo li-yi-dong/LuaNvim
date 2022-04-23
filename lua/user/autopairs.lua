@@ -13,12 +13,12 @@ npairs.setup {
   },
   disable_filetype = { "TelescopePrompt", "spectre_panel" },
   fast_wrap = {
-    map = "<M-e>",
+    map = "<C-p>",
     chars = { "{", "[", "(", '"', "'" },
     pattern = string.gsub([[ [%'%"%)%>%]%)%}%,] ]], "%s+", ""),
     offset = 0, -- Offset from pattern match
     end_key = "$",
-    keys = "qwertyuiopzxcvbnmasdfghjkl",
+    keys = "1234567890",
     check_comma = true,
     highlight = "PmenuSel",
     highlight_grey = "LineNr",
