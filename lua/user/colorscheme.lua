@@ -1,3 +1,5 @@
+vim.g.tokyonight_style = "day"
+
 vim.cmd [[
 try
   colorscheme tokyonight

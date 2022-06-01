@@ -54,6 +54,9 @@ keymap("n", "<leader>W", ":wa<CR>", opts)
 keymap("n", "<leader>x", ":xa<CR>", opts)
 keymap("n", "<leader>X", ":qa!", opts)
 
+-- Telescope
+keymap("n", "<leader>fg", ":Telescope live_grep", opts)
+
 
 -- Insert --
 -- Press jk fast to enter
